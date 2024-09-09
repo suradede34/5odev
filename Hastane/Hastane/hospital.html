@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerrahpaşa Hastanesi</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #b10000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 16px;
+            font-weight: 300;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        section h2 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+        section p {
+            font-size: 14px;
+        }
+        section img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            font-size: 14px;
+        }
+        .doktor-listesi {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .doktor {
+            flex: 1 1 30%;
+            background: #f9f9f9;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .doktor img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .doktor h3 {
+            margin-top: 0;
+            font-size: 18px;
+        }
+        .doktor p {
+            font-size: 14px;
+        }
+        .randevu {
+            text-align: center;
+            font-size: 16px;
+            padding: 16px;
+            background-color: #e9ecef;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 16px;
+        }
+        .randevu a {
+            color: #004085;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cerrahpaşa Hastanesi</h1>
+        <p>Sağlıkta Güven ve Kalite</p>
+    </header>
+
+    <div class="container">
+        <section id="hakkimizda">
+            <h2>Hakkımızda</h2>
+            <p>Cerrahpaşa Hastanesi, 1985 yılında kurulmuş ve sağlık sektöründe uzun yıllardır kaliteli hizmet vermektedir. Modern cihazlar ve uzman kadromuz ile hastalarımıza en iyi sağlık hizmetini sunmayı hedefliyoruz.</p>
+            <img src="images/cerrahpasa.jpg" alt="Cerrahpaşa Hastanesi">
+        </section>
+
+        <section id="bolumler">
+            <h2>Bölümler</h2>
+            <ul>
+                <li>Genel Cerrahi</li>
+                <li>Kardiyoloji</li>
+                <li>Ortopedi</li>
+                <li>Psikiyatri</li>
+                <li>Üroloji</li>
+                <li>Laboratuvar</li>
+            </ul>
+        </section>
+
+        <section id="doktorlar">
+            <h2>Doktorlar</h2>
+            <div class="doktor-listesi">
+                <div class="doktor">
+                    <img src="images/doktor1.jpg" alt="Dr. Ahmet Yılmaz">
+                    <h3>Dr. Ahmet Yılmaz</h3>
+                    <p>Genel Cerrahi Uzmanı</p>
+                </div>
+                <div class="doktor">
+                    <img src="images/doktor2.jpg" alt="Dr. Elif Demir">
+                    <h3>Dr. Elif Demir</h3>
+                    <p>Kardiyoloji Uzmanı</p>
+                </div>
+                <div class="doktor">
+                    <img src="images/doktor3.jpg" alt="Dr. Mehmet Can">
+                    <h3>Dr. Mehmet Can</h3>
+                    <p>Ortopedi Uzmanı</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="iletisim">
+            <h2>İletişim</h2>
+            <div class="randevu">
+                <p>Randevu almak için lütfen <a href="">buraya</a> tıklayın.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

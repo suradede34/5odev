@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şura Hotels</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .içerik {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+        }
+        .galeri img {
+            max-width: 750px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .yorum {
+            display: flex;
+            align-items: center;
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-left: 4px solid #555;
+            margin-bottom: 10px;
+        }
+        .yorum img {
+            border-radius: 50%;
+            margin-right: 15px;
+            width: 50px;
+            height: 50px;
+        }
+        .yorum p {
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/hotellogo.png" alt="Şura Hotels Logosu">
+        <h1>Şura Hotels</h1>
+    </header>
+
+    <!-- Yatay Menü -->
+    <nav>
+        <ul>
+            <li><a href="#home">Anasayfa</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#yorumlar">Yorumlar</a></li>
+            <li><a href="#contact">İletişim</a></li>
+        </ul>
+    </nav>
+    
+    <div class="içerik">
+        <section id="home">
+            <h2>Hoş Geldiniz!</h2>
+            <p>Otelimizde hayallerinizin ötesinde saunalarımızla birlikte tatilinizi güzelleştirmeye ne dersiniz?</p>
+        </section>
+
+        <section id="galeri" class="galeri">
+            <h2>Galeri</h2>
+            <img src="images/hotelroom1.jpg" alt="Otel Resim 1">
+            <img src="images/hotelroom2.jpg" alt="Otel Resim 2">
+            <img src="images/hotelroom3.jpg" alt="Otel Resim 3">
+        </section>
+
+        <section id="yorumlar" class="yorumlar">
+            <h2>Ziyaretçi Yorumları</h2>
+            <div class="yorum">
+                <img src="images/profile.jpg" alt="Profil Resmi">
+                <p><strong>Şura K:</strong></p>
+                <p>Tatilimiz muhteşemdi!</p>
+            </div>
+            <div class="yorum">
+                <img src="images/profile.jpg" alt="Profil Resmi">
+                <p><strong>Şura A:</strong></p>
+                <p>Metrobüse yakınlığı çok hoşuma gitti.</p>
+            </div>
+            <div class="yorum">
+                <img src="images/profile.jpg" alt="Profil Resmi">
+                <p><strong>Şura T:</strong></p>
+                <p>Çalışanlar çok ilgiliydi.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>İletişim</h2>
+            <p>Adres: 123 Sokak, 123.Cadde No:123 Beşiktaş/Istanbul</p>
+            <p>Telefon: +90 123 123 12 12</p>
+        </section>
+    </div>
+</body>
+</html>
